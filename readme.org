@@ -1,1 +1,1 @@
-/home/samcheung/Documents/Projects/MyKeyboardLayout/keymap.org
+keymap.org
