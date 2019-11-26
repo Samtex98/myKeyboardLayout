@@ -29,11 +29,11 @@ const uint32_t PROGMEM unicode_map[] = {
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  [_MD] = LAYOUT_ortho_5x15( /* NON FUNC */
-	KC_GRV,     KC_1,    KC_2,    KC_3,    KC_4,    KC_5, KC_NLCK, KC_PSLS, KC_PAST,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0, _______, \
+	 KC_GRV,    KC_1,    KC_2,    KC_3,    KC_4,    KC_5, KC_NLCK, KC_PSLS, KC_PAST,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0, _______, \
     _______, _______, _______, _______, _______, _______,   KC_P7,   KC_P8,   KC_P9, _______, _______, _______, _______, _______, _______, \
     _______, _______, _______, _______, _______, _______,   KC_P4,   KC_P5,   KC_P6, _______, _______, _______, _______, _______, _______, \
     KC_LSFT, _______, _______, _______, _______, _______,   KC_P1,   KC_P2,   KC_P3, _______, _______, _______, _______, _______, KC_RSFT, \
-    MO(_FN), KC_MINS, KC_EQL,  KC_LALT, KC_LCTL,  KC_SPC,   KC_P0, MO(_FN), KC_PDOT,  KC_ENT,  KC_TAB, KC_LGUI, KC_LBRC, KC_RBRC, MO(_FN)  \
+    MO(_FN), KC_MINS, KC_EQL,  KC_LALT, KC_LCTL,  KC_SPC, KC_BSPC,   KC_P0,  KC_ESC,  KC_ENT,  KC_TAB, KC_LGUI, KC_LBRC, KC_RBRC, MO(_FN)  \
  ),
  
  [_WM] = LAYOUT_ortho_5x15( /* WORKMAN */
