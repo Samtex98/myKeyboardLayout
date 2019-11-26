@@ -1,5 +1,7 @@
 #+TITLE: iDOBO Keyboard Layout
 
+[[file:IdoboKeyboard.png]]
+
 * Non Functional
   | Non Modifiers | ESC      | PAUS       | SLCK    | NLCK | PSCR |     |
   | Navigation    | HOME/END | ARROW KEYS | PGUP/DN |      |      |     |
