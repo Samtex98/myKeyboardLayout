@@ -33,7 +33,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	 KC_INS , _______, _______, _______, _______, _______,   KC_P7,   KC_P8,   KC_P9, _______, _______, _______, _______, _______, _______, \
      KC_ESC, _______, _______, _______, _______, _______,   KC_P4,   KC_P5,   KC_P6, _______, _______, _______, _______, _______, _______, \
     KC_LSFT, _______, _______, _______, _______, _______,   KC_P1,   KC_P2,   KC_P3, _______, _______, _______, _______, _______, KC_RSFT, \
-    MO(_FN), KC_MINS, KC_EQL,  KC_LALT, KC_LCTL,  KC_SPC, KC_BSPC,   KC_P0,  KC_TAB,  KC_ENT, KC_RALT, KC_LGUI, KC_LBRC, KC_RBRC, TO(_FN)  \
+    MO(_FN), KC_MINS, KC_EQL,  KC_LALT, KC_LCTL,  KC_SPC, KC_BSPC,   KC_P0,  KC_TAB,  KC_ENT, KC_RALT, KC_LGUI, KC_LBRC, KC_RBRC, TG(_FN)  \
  ),
  
  [_WM] = LAYOUT_ortho_5x15( /* WORKMAN */
@@ -57,7 +57,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______,       _______,       KC_UP, _______, _______, _______, KC_HOME, TG(_WM), KC_PGUP, _______, _______, _______, _______, XP(U_o,U_O),  KC_F12, \
     KC_CAPS,       KC_LEFT,     KC_DOWN, KC_RIGHT, _______, _______, KC_END,  TG(_QQ), KC_PGDN, KC_PPLS, KC_LEFT, KC_DOWN,   KC_UP,    KC_RIGHT, KC_HOME, \
     _______,       _______,     _______, _______, _______, _______, KC_DEL,  _______,  KC_INS, KC_PCMM, KC_VOLD, KC_MUTE, KC_MPLY,     KC_VOLU,  KC_END, \
-    _______,       _______,     _______, _______, _______, _______, _______, _______, _______, KC_PMNS, KC_BRID, KC_PGDN, KC_PGUP,     KC_BRIU, _______  \
+    _______,       _______,     _______, _______, _______, _______, _______, _______, _______, KC_PMNS, KC_BRID, KC_PGDN, KC_PGUP,     KC_BRIU, TG(_FN)  \
  ),
 
  [_DB] = LAYOUT_ortho_5x15( /* DEBUG */
