@@ -1,4 +1,4 @@
-UNICODEMAP_ENABLE = yes
+
 
 # Copyright 2013 Jun Wako <wakojun@gmail.com>
 #
